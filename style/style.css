@@ -29,6 +29,7 @@ display: none;
   padding: 10px;
   margin: 20px;
   text-align: center;
+  font-size: large;
 }
 
 .ma__photo{
@@ -54,12 +55,13 @@ padding: 10px;
   flex-direction: column;
   margin: 10px;
   padding: 10px;  
+  justify-content: end;
 }
 
 .row-cards{
   display: flex;
   justify-content: space-evenly;
-
+   width: 100%;
 }
 
 .cards{
@@ -127,7 +129,7 @@ align-items: flex-end;
   border: solid red 2px;
 }
 
-.h3{
+h3{
   margin: 100px;
   width: 30%;
   padding: 50px;
@@ -172,7 +174,7 @@ margin: 15px;
 
   .row-desktop{
     display: flex;
-    justify-content: space-evenly;
+   justify-content: end;
 
   }
 }
